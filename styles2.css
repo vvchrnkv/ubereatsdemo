@@ -1,5 +1,7 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
 } 
 
 .container {
@@ -16,8 +18,7 @@
     height:40px;
     padding-top:16px;
     padding-bottom:16px;
-    margin-left: -8px;
-  margin-right: -8px;
+    
   }
   .row2 {
     display: flex;
@@ -39,6 +40,17 @@
     padding-bottom:16px;
     margin-left: -8px;
   margin-right: -8px;
+  }
+
+  .row4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top:16px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+   
   }
   .col-1,
   .col-2,
@@ -263,6 +275,14 @@ footer {
   background: #262626;
   height: 552px;
 }
+.footercolumn_1 {
+  margin-left: -8px;
+  
+}
+
+.footercolumn_2, .footercolumn_3 {
+  height: 137px;
+}
 .whitelogo {
   padding-top:56px;
   padding-bottom:40px;
@@ -270,4 +290,58 @@ footer {
 
 .whitelogobox {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 8px;
+  padding-left: 0px;
+  margin-right: 8px;
+  padding-right: 0px;  
+  padding-top: 40px;
+  padding-bottom: 36px;
+}
+
+
+.selectbutton {
+  width: 227px;
+  height: 40px;
+  color:white;
+  outline: none;
+  width: 179px;
+  margin-left:48px;
+  
+}
+.selectbox {
+  background:url(./images/world.svg), url(./images/if_icon-ios7-arrow-back_211686.svg);
+  background-color: #3B3B3B;
+  border-radius: 2px;
+  background-position:24px 50%, 205px 50%;
+  background-repeat: no-repeat, no-repeat;
+  width: 227px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+  
+}
+
+.option {
+  background-color: #3B3B3B;
+  border-radius: 2px;
+  width: 227px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+}
+
+.ubereatsbutton {
+  color:white;
+  padding-top:18px;
+}
+
+.socialbutton {
+  padding-right:10px;
+}
+.mapsitelinks {
+  color:white;
+  font-size:13px;
+  line-height: 21px;
 }
