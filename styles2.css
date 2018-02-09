@@ -1,0 +1,273 @@
+* {
+    font-family: 'Roboto', sans-serif;
+} 
+
+.container {
+    max-width: 976px;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height:40px;
+    padding-top:16px;
+    padding-bottom:16px;
+    margin-left: -8px;
+  margin-right: -8px;
+  }
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top:16px;
+    padding-bottom:16px;
+    margin-left: -8px;
+  margin-right: -8px;
+  }
+
+  .row3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top:16px;
+    padding-bottom:16px;
+    margin-left: -8px;
+  margin-right: -8px;
+  }
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+  }
+  
+  .col-1 {
+    flex-basis: 8.3333%;
+  }
+  .col-2 {
+    flex-basis: 16.6666%;
+  }
+  .col-3 {
+    flex-basis: 24.9999%;
+  }
+  .col-4 {
+    flex-basis: 33.3333%;
+  }
+  .col-5 {
+    flex-basis: 41.6665%;
+  }
+  .col-6 {
+    flex-basis: 49.9998%;
+  }
+  .col-7 {
+    flex-basis: 58.3331%;
+  }
+  .col-8 {
+    flex-basis: 66.6664%;
+  }
+  .col-9 {
+    flex-basis: 74.9997%;
+  }
+  .col-10 {
+    flex-basis: 83.3333%;
+  }
+  .col-11 {
+    flex-basis: 91.6663%;
+  }
+  .col-12 {
+    flex-basis: 100%;
+  }
+
+
+  header {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    height: 72px;
+}
+
+.inputbox, .signin, .register, .asap {
+     height: inherit;
+     
+ }
+
+ .button, .inputbox {
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #E0E0E0; 
+    height: inherit;
+    border-radius: 2px;
+  
+ }
+ .btnasap {
+     width:65px;
+     font-size:16px;
+ }
+
+.to {
+  font-weight: 300;
+}
+.inputbox {
+    background: url(./images/location.svg) 12px 12px no-repeat;
+    width:290px;
+    
+}
+ .inputboxfield {
+     font-family: Roboto, 'sans-serif';
+     font-size:16px;
+     color:#1D1D1D;
+     border:none;
+     margin-left:26px;
+     padding-right:25px;
+     overflow: hidden;
+     padding:11px;
+     width: calc(100% - 48px);
+ }
+  .inputboxfield::-webkit-input-placeholder {color:#1D1D1D;}
+  .inputboxfield::-moz-placeholder          {color:#1D1D1D;}/* Firefox 19+ */
+  .inputboxfield:-moz-placeholder           {color:#1D1D1D;}/* Firefox 18- */
+  .inputboxfield:-ms-input-placeholder      {color:#1D1D1D;}
+ }
+ .inputboxfield:focus, .button:focus, .searchboxfield:focus{
+     outline: none;
+ }
+
+ .buttonsignin {
+   margin-left: 58px;
+   width: 80px;
+   font-size:13px;
+   font-weight: 500;
+ }
+ .buttonregister {
+   width: 80px;
+   color: white;
+   background: #262626;
+   border-radius:2px;
+   font-size:13px;
+   font-weight: 500;
+ }
+ .basket {
+   margin-left:18px;
+ }
+
+ /*после хедера*/
+.search {
+  margin-top: 37px;
+}
+ .searchbox {
+  
+   height: 48px;
+   border-bottom: 1px solid rgba(117,117,117,0.3);
+   
+ }
+
+.searchboxfield {
+  border:none;
+  width:100%;
+  padding-left:30px;
+  padding-top:8px;
+  padding-bottom:16px;
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 24px;
+font-size: 16px;
+color: rgba(98,98,98,0.5);
+background: url(./images/search.svg) 0px 9px no-repeat;
+mix-blend-mode: normal;
+}
+
+h1 {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 34px;
+font-size: 22px;
+color: #1D1D1D;
+}
+
+.h1 {
+  padding-left:9px;
+  margin-top:67px;
+}
+
+/*список ресторанов*/
+
+.restrow {
+  align-items: flex-start;
+  padding-top: 0px;
+}
+
+
+.rest1 {
+background: rgba(117,117,117,0.04);
+mix-blend-mode: normal;
+}
+
+
+
+.restname{
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+font-size: 16px;
+-webkit-margin-before:12px;
+-webkit-margin-after:4px; 
+color: #1D1D1D;
+}
+.restprice {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  font-size: 14px;
+  -webkit-margin-before:4px;
+  -webkit-margin-after:4px; 
+  color: #626262;
+}
+.restdelivery {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  font-size: 13px;
+  -webkit-margin-before:4px;
+  padding-bottom:16px; 
+  color: #1D1D1D;
+}
+
+.restcolumn {
+  margin-bottom:20px;
+}
+main {
+  height: 1396px;
+}
+/*footer*/
+footer {
+  background: #262626;
+  height: 552px;
+}
+.whitelogo {
+  padding-top:56px;
+  padding-bottom:40px;
+}
+
+.whitelogobox {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
